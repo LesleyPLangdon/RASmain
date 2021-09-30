@@ -1,0 +1,166 @@
+/*full site formating */
+#container {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+hr {
+  color: rgb(29, 107, 199);
+}
+section {
+  width: 90%;
+  margin-left: 5%;
+  font-size: 18pt;
+}
+h1, h4 {
+  text-align: center;
+}
+
+/* header */
+header {
+position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#imagecontainer {
+    
+    text-align: center;
+    color: white;
+    
+}
+#headerimage {
+    max-height: 320px;
+}
+.headertext {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 56pt;
+  color:white;
+}
+#navbar {
+   display: flex;
+    background-color: whitesmoke;
+    
+}
+nav ul {
+   width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+nav li a {
+      float: left;
+      display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+
+.navlink {
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 18pt;
+    letter-spacing: 0.2em;
+    color: rgb(221,47,159);
+    
+}
+
+.navlink:visited {
+    color: rgb(40, 1, 94);
+}
+.navlink:hover {
+    color: rgb(255, 171, 6);
+}
+/*text and image formating */
+.twoColumn {
+    margin: 30px 350px;
+}
+.text_left {
+    
+        width: 600px;
+        float: left;
+    }
+.text_right {
+    width: 600px;
+    float: right;
+}
+.image {
+        display: inline;
+        padding: 30px;
+    }
+
+#image3 {
+    width: 50%;
+    margin-left: 25%;
+}
+/* footer */
+footer {
+  position: relative;
+  height: 60px;
+  background-color: rgb(40, 1, 94);
+  color: white;
+}
+#copyright {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12pt;
+}
+
+/* social media links */
+.socialheader {
+    display: flex;
+    justify-content: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+ .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+  .fa-envelope-o {
+    background: #d63297;
+    color: white;
+  }
+  #projectblocks {
+    box-sizing: border-box;
+  }
