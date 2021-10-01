@@ -3,10 +3,15 @@
     <head>
         <title>Rent A Site - Sample Pages</title>
         <link rel="stylesheet" href="rentasite.css">
-        
+        <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+      />
     </head>
     <body>
-    <div id="container">
+    <div id="container-fluid">
         <header>
             <div id="imagecontainer">
             <img src="images/header.jpg" alt="Pond and Blue Sky" width= 100%/>
@@ -23,26 +28,32 @@
         </header>
         
         <section>
-        <h4>Single Page Site</h4>
-        <div class="twoColumn" >
-            <a href="SinglePageSample.html"><img class="image" src="images/LandingPage.png" alt="Landing Page" width=400px /></a>
-            <div class="text_right">
+            <div >
+        <h4 class="col-xs-12">Single Page Site</h4>
+        
+            <div class="col-xs-2"></div>
+            <a href="SinglePageSample.html"><img class="image col-xs-3" src="images/LandingPage.png" alt="Landing Page"   /></a>
+            <div class="col-xs-5">
             <p>Our single page site, often refered to as a landing page, has all your information in one spot. Click on the picture to the left (or above) to view the sample site.</p>
             <p>The image and text on the top is customized to suit your company. We can include a logo and text for a different look. The links you see will bring the user to that section of the page so they don't have to scroll through everything if all they want is contact information.</p>
-            <p>You will provide the content. We recommend <ol>
+            <p>You will provide the content. We recommend </p>
+                <ol>
                 <li>a blurb about you and/or your company</li>
                 <li>information about the goods or services you provide</li>
                 <li>contact information</li>
             </ol>
-        You can add more or less, depending on what you are looking to achieve.</p>
+            <p>You can add more or less, depending on what you are looking to achieve.</p>
         </div>
         </div>
     </section>
     <section>
-        <h4>Three Page Site</h4>
-        <div class="twoColumn">
-            <a href="ThreePageIndex.html"><img class="image" src="images/ThreePageSample.jpg" alt="Three Page Site" width=400px /></a>
-            <div class="text_right">
+        <h4 class="col-xs-12">Three Page Site</h4>
+        <div class="col-xs-2"></div>
+        <div >
+        
+        
+            <a href="ThreePageIndex.html"><img class="image col-xs-3" src="images/ThreePageSample.jpg" alt="Three Page Site" width=400px /></a>
+            <div class="col-xs-5">
             <p>When you move up to a multi pages site, the sections of the single page site all get their own page. If you want a lengthy description of your services or to include a lot of photos, I recommend this option. Click on the picture to the left (or above) to view the sample site.</p>
             <p>All of the same customizaiton is available but with even more flexibiltiy. The same header image across all pages gives continuity, but you could have different headers on each page. On a single page we recommend consistant formating so it flows well when someone does scroll all the way through. With multi page that isn't an issue so you can change your formating on each page.</p>
             <p>If you are not sure which option is right for you, don't worry, we will talk about your needs and find the best solution for you.</p>
@@ -50,10 +61,11 @@
         </div>
     </section>
     <section>
-        <h4>Blog</h4>
-        <div class="twoColumn">
-            <a href="https://myjourneytotheat.com"><img class="image" src="images/blogSample.png" alt="My Journey to the AT Blog" width=400px /></a>
-            <div class="text_right">
+        <h4 class="col-xs-12">Blog</h4>
+        <div class="col-xs-2"></div>
+        <div >
+            <a href="https://myjourneytotheat.com"><img class="image col-xs-3" src="images/blogSample.png" alt="My Journey to the AT Blog" width=400px /></a>
+            <div class="col-xs-5">
             <p>Do you have something to say but you aren't sure about how to get it out there? We can build and maintain your blog for you</p>
             <p>Click the image on the left to see my blog about my Journey to the Appalachian Trail.</p>
             <p>Blogs will be built using a wordpress theme. You will have several layout options including features for all types of blogs. Premade plug-ins format your recipes, news feeds, photo galleries, or whatever else you may need.</p>
@@ -62,7 +74,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="fixed-bottom">
         <div id="copyright">&copy;LesleyLangdon 2021</div>
     </footer> 
     </div>
