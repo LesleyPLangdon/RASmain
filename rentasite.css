@@ -24,7 +24,17 @@ body {
 
 h1, h4 {
   text-align: center;
+  
 }
+h3 {
+  text-align: center;
+  font-weight: 1000;
+  width: 20%;
+  padding: 10px;
+ 
+  background-color: rgb(255, 171, 6);
+}
+
 .priceDesc {
   margin-top: 10px;
   margin-bottom: 40px;
